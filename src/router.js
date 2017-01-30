@@ -29,7 +29,7 @@ const routes = (
             <IndexRedirect to="html"/>
     <Route path="html" component={CourseContainer} data={CourseList.HTML}/>
     <Route path="css" component={CourseContainer} data={CourseList.CSS}/>
-    <Route path="javaScript" component={CourseContainer} data={CourseList.javaScript}/>
+    <Route path="javaScript" component={CourseContainer} data={CourseList.JS}/>
         </Route> 
     <Route path="featured/:topic/:name" component={Featured} />
     <Route path="*" component={NotFound}/>
